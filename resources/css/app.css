@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Styling tambahan untuk form auth */
+.sm\:max-w-md {
+    max-width: 32rem !important; /* Membuat form lebih lebar */
+}
+
+.form-input {
+    font-size: 1.1rem !important; /* Membuat input lebih besar */
+    padding: 0.75rem 1rem !important;
+}
+
+.button {
+    font-size: 1.1rem !important; /* Membuat tombol lebih besar */
+    padding: 0.75rem 1.5rem !important;
+}
