@@ -1,0 +1,61 @@
+body {
+    background: url('/images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-edit {
+    background-color: #f0ad4e;
+}
+
+.btn-delete {
+    background-color: #d9534f;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
